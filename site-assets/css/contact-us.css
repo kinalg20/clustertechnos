@@ -1,0 +1,10 @@
+form h1 {
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+section .card {
+    box-shadow: rgb(62, 129, 230) 0px 6px 16px;
+}
+.send-message {
+    text-align: right;
+}

@@ -74,6 +74,9 @@
 .elementor-4 .elementor-element.elementor-element-2356a4b .elementskit-infobox .box-body > p{
     color: #FFFFFF;
 } */
+.watch-card {
+    box-shadow: rgb(62, 129, 230) 0px 6px 16px;
+}
 .cards-section {
     width: 17rem;
     box-shadow: rgb(62, 129, 230) 0px 6px 16px;
@@ -107,6 +110,8 @@ hr {
     border-radius: 12px;
     padding: 24px;
     box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    /* box-shadow: rgb(62, 129, 230) 0px 6px 10px; */
+
 }
 .card-section .card h4 {
     font-weight: bold;
