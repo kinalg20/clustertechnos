@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Global Styles */
+:root {
+    --blue: #1c0732;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e9194b;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --gray: #E4E7F5;
+    --gray2: #FCFDFF;
+    --gray3: #737A96;
+    --light-gray: #B1B5D3;
+    --gray-dark: #323739;
+    --primary: #39b386;
+    --secondary: #d9dcdf;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --white: #fff;
+    --danger: #dc3545;
+    --light: #5d6063;
+    --dark: #131c21;
+    --dark-header: #2A2F32;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-family-inter: 'Inter', sans-serif;
+}
+body {
+    font-family: var(--font-family-inter);
+    overflow-x: hidden !important;
+}
+.text-primary {
+    color: var(--primary) !important;
+}
+a.text-primary:hover {
+    text-decoration: none;
+    color: var(--primary) !important;
+    opacity: 0.8;
+}
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    opacity: 0.8;
+}
+.btn-primary.focus,
+.btn-primary:focus {
+    color: #fff;
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    opacity: 0.8;
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--primary) !important;
+    opacity: 0.8;
+    border-color: var(--primary) !important
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+}
